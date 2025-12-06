@@ -166,3 +166,10 @@ a {
   display: flex;
   gap: 40px;
 }
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  padding: 30px;
+}
