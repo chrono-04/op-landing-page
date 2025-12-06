@@ -143,26 +143,25 @@ a {
 
 .quote-container {
   min-height: 400px;
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px 100px;
+  background-color: #E5E7EB;
 }
 
-.quote {
-  border: 2px solid blue;
+.quote > em {
   margin-bottom: 20px;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
 }
 
-.quote em {
-  font-size: 32px;
-  color: rgb(56, 56, 56);
-}
 
 .quote-author {
   margin-left: auto;
+  margin-top: 10px;
   font-size: 24px;
   font-weight: 600;
 }
