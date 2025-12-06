@@ -117,3 +117,31 @@ a {
   width: 150px;
   text-align: center;
 }
+
+/* Quote section */
+
+.quote-container {
+  min-height: 400px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 100px;
+}
+
+.quote {
+  border: 2px solid blue;
+  margin-bottom: 20px;
+}
+
+.quote em {
+  font-size: 32px;
+  color: rgb(56, 56, 56);
+}
+
+.quote-author {
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: 600;
+}
