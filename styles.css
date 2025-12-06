@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Navbar */
 .container {
   display: flex;
   flex-direction: column;
@@ -15,6 +16,7 @@
   justify-content: space-between;
   gap: 32px;
   padding: 10px;
+  border: 2px solid red;
 }
 
 a {
@@ -24,4 +26,51 @@ a {
 
 .header-logo {
   margin-right: auto;
+}
+
+/* Hero Section */
+
+.hero-div {
+  display: flex;
+  min-height: 400px;
+  border: 2px solid red;
+}
+
+.left-div,
+.right-div {
+  border: 2px solid red;
+  display: flex;
+  flex: 1;
+}
+
+.left-div {
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 10px 30px;
+}
+
+.left-div > .signup-btn {
+  flex: none;
+  padding: 10px 30px;
+  margin-right: auto;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+.right-div {
+  justify-content: center;
+  align-items: center;
+}
+
+.right-div > .placeholder-img {
+  border: 2px solid red;
+  background-color: rgb(230, 230, 230);
+  min-width: 400px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
