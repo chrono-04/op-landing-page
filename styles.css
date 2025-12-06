@@ -145,3 +145,24 @@ a {
   font-size: 24px;
   font-weight: 600;
 }
+
+.cta-div {
+  min-height: 300px;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-card {
+  border: 2px solid yellow;
+  padding: 40px 60px;
+  background-color: #1673fd;
+  color: white;
+}
+
+.cta-desc-div {
+  display: flex;
+  gap: 40px;
+}
